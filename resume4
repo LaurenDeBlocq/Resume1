@@ -3,6 +3,7 @@
   <head>
     <title>LAUDEB176_FTO2304_GroupB_LaurenDeBlocqVanScheltinga_ITW1</title>
     <link rel="icon" type="image/x-icon" href="./Pictures/favicon.ico">
+    <link rel="stylesheet" href="./CSS/Styling.css">
   </head>
   <body>
     <header>
