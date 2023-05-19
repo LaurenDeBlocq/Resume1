@@ -1,22 +1,93 @@
 h1 {
     color: purple;
+    text-align: center;
+}
+
+#intro{
+    border: 1px solid purple;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#top-bar{
+    text-align: center;
+}
+
+.nav-bar{
+    font-size: 20px;
+    border: 1px solid purple;
+    padding: 20px;
+    background-color: lavenderblush;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 header, footer{
     background-color: plum;
+    border: 1px solid;
+}
+
+header{
+    margin-bottom: 1rem;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    margin-bottom: 1rem;
 }
 
 body{
     background-color: bisque;
 }
 
+hr{
+    border: 1px solid purple;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.CV-section{
+    border: 2px solid purple;
+    background-color: antiquewhite;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p{
+    margin: 40px 20px;
+    margin-top: 10px;
+}
+
 h2{
     color: rgb(194, 64, 194);
     font-weight: bolder;
+    margin: 10px 20px;
+    text-decoration: underline;
 }
 
 h3{
-    color: rgb(214, 167, 227);
+    color: rgb(169, 98, 188);
+    margin: 10px 20px;
+    margin-bottom: 0;
+}
+
+#contact{
+    color: purple;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
 
 a{
