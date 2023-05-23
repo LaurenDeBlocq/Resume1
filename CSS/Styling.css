@@ -51,6 +51,7 @@ footer{
 
 body{
     background-color: bisque;
+    margin: 0;
 }
 
 hr{
@@ -92,4 +93,5 @@ h3{
 
 a{
     color: blueviolet;
+    text-decoration: none;
 }
