@@ -11,15 +11,16 @@ h1 {
     margin-right: 30%;
 }
 
-#top-bar{
-    text-align: center;
-}
-
 .nav-bar{
     font-size: 20px;
     border: 1px solid purple;
-    padding: 20px;
+    padding: 5px;
     background-color: lavenderblush;
+}
+
+#top-bar{
+    text-align: center;
+    padding: 20px;
 }
 
 img {
@@ -94,4 +95,32 @@ h3{
 a{
     color: blueviolet;
     text-decoration: none;
+}
+
+form {
+    border: 1px solid purple;
+    background-color: antiquewhite;
+    position: relative;
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    top: 1rem;
+}
+
+input {
+    width: fit-content;
+}
+
+select {
+    width: fit-content;
+}
+
+textarea {
+    width: fit-content;
+}
+
+.submit {
+    display: flex;
+    align-self: flex-end;
 }
