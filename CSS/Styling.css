@@ -30,24 +30,26 @@ img {
     max-width: 15%;
     height: auto;
     border-radius: 50%;
-    margin-top: 10px;
     margin-bottom: 20px;
 }
 
-header, footer{
-    background-color: plum;
-    border: 1px solid;
-}
-
 header{
+    background-image: url("../Pictures/Hero-Pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
     margin-bottom: 1rem;
+
 }
 
 footer{
+    background-color: plum;
+    border: 1px solid;
     padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 20px;
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 body{
@@ -64,8 +66,7 @@ hr{
 .CV-section{
     border: 2px solid purple;
     background-color: antiquewhite;
-    margin-left: 15%;
-    margin-right: 15%;
+    
 }
 
 p{
@@ -101,26 +102,61 @@ form {
     border: 1px solid purple;
     background-color: antiquewhite;
     position: relative;
-    width: fit-content;
-    padding: 5px;
     display: flex;
     flex-direction: column;
     top: 1rem;
 }
 
 input {
-    width: fit-content;
 }
 
 select {
-    width: fit-content;
 }
 
 textarea {
-    width: fit-content;
 }
 
 .submit {
     display: flex;
     align-self: flex-end;
+}
+
+article{
+    flex-direction: column;
+}
+
+/*for phone screen and smaller*/
+@media only screen and (max-width: 600px){
+    #profile-pic{
+        min-height: 10%;
+        min-width: none;
+    }
+}
+
+/* for tablets*/
+@media only screen and (min-width: 600px){
+    body{
+    }    
+}
+
+/*all screens above tablet*/
+@media only screen and (min-width: 1024px){
+    article{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    .CV-section{
+        flex: 1;
+    }
+    /*.CV-section{
+        display: flex;
+        max-width: 30%;
+        flex-wrap: wrap;
+        text-align: start;
+        align-items: flex-start;
+        align-self: flex-start;
+    }*/
+
 }
